@@ -1,0 +1,598 @@
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    margin: 0px 166px;
+}
+
+.header {
+    background-image: url(bg.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.logo {
+    position: relative ;
+    min-width: 120px; /* Гибкость – наше всё */
+    max-width: 12%;
+    object-fit: contain; /* Исключаем искажения пропорций */
+    z-index: 1;
+    top: 50px;
+    left: -100px;
+}
+
+.tg-holder {
+    position: absolute;
+    left: 1200px;
+    top: 40px;
+}
+
+.tg-text { /*текст "мой телеграм"*/
+    color: #fff;
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: 700;
+    z-index: 100;
+    position: absolute;
+    transition: color 0.3s linear;
+}
+
+.tg-text:hover { /*цвет текста тг при наводке*/
+    color: #42aaff;
+}
+
+.tg-img { /*лого тг*/
+    position: relative ;
+    width: 23%; /* Гибкость – наше всё */
+    min-width:20%
+    height: auto%;
+    object-fit: contain; /* Исключаем искажения пропорций */
+    top: 50px;
+    left: -70px;
+}
+
+.button {
+    background-color: #ffde00;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 18px;
+    font-weight: 700;
+    transition: background-color 0.2s linear;
+}
+
+.button:hover {
+    background-color: #ffde00;
+}
+
+.header-down {
+    position: relative;
+    top: 200px;
+}
+
+.header-title {
+    color: #ffffff;
+    font-family: 'Tinos', serif;
+    font-size: 65px;
+    font-weight: 400;
+    text-align: center;
+    position: absolute;
+    left: 0;
+}
+
+.header-suptitle {
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    bottom: 100px;
+}
+
+.header-button {
+    background-color: #140F0B;
+    padding: 14px 28px;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background-color 0.5s linear;
+}
+
+.button-holder {
+    display: flex;
+    margin-right: 30px;
+}
+
+.header-button:hover {
+    background-color: #CFCFCF;
+}
+
+.body-img {
+    position: relative ;
+    width: 62%; /* Гибкость – наше всё */
+    height: auto%;
+    object-fit: contain; /* Исключаем искажения пропорций */
+    top: -291px;
+    left: 700px;
+}
+
+
+
+
+
+.history { /*вся вторая страница*/
+    z-index: 1;
+    background-image: url(bg2.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0px;
+    padding-bottom: 1px;
+}
+
+.history-title {
+    font-family: 'Tinos', serif;
+    font-size: 54px;
+    font-weight: 400;
+    width: 444px;
+    text-align: center;
+    margin-top: 21px;
+}
+
+.history-title span {
+    color: #ffffff;
+}
+
+.history-info {
+    margin-top: 100px;
+}
+
+.history-desc {
+    color: #979797;
+    font-size: 30px;
+    width: 444px;
+    text-align: center;
+}
+
+.statistics {
+    display: flex;
+    width: 444px;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.number-item {
+    font-family: 'Tinos', serif;
+    margin-right: 60px;
+    text-align: center;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.number-item span {
+    display: block;
+    color: #ffffff;
+}
+
+.social-medias {
+   position: relative;
+   width: 85%;
+   top: 30px;
+   left: 100px
+}
+
+.social-medias img {
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s ease, filter 0.3s ease; /* Плавный переход для трансформации и фильтра */
+}
+
+.social-medias img:hover {
+    transform: scale(1.2); /* Увеличение иконки при наведении */
+    filter: brightness(1.2); /* Увеличение яркости при наведении */
+}
+
+
+.logo-1 {
+   position: relative;
+   width: 10%; /* Гибкость – наше всё */
+   height: auto;
+   object-fit: contain; /* Исключаем искажения пропорций */
+   margin-right: 15px;
+}
+
+.logo-2 {
+   position: relative;
+   width: 9%; /* Гибкость – наше всё */
+   height: auto;
+   object-fit: contain; /* Исключаем искажения пропорций */
+   margin-right: 15px;
+}
+
+.logo-3 {
+   position: relative;
+   width: 9%; /* Гибкость – наше всё */
+   height: auto;
+   object-fit: contain; /* Исключаем искажения пропорций */
+   margin-right: 15px;
+}
+
+
+.pavlov-images {
+    position: relative;
+}
+
+.history-holder {
+    display: flex;
+}
+
+.images-1 {
+    position: relative ;
+    border-radius: 10px;
+    width: 120%; /* Гибкость – наше всё */
+    height: auto;
+    object-fit: contain; /* Исключаем искажения пропорций */
+    z-index: 1;
+    top: 120px;
+    left: 0px;
+}
+
+.videos {
+    background-image: url(bg2.jpg);
+    z-index: 1;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0px;
+    padding-bottom: 1px;
+}
+
+.videos-header {
+    color: #fff;
+    text-align: center;
+    font-family: 'Tinos', serif;
+    font-size: 65px;
+    font-weight: 400;
+    text-align: center;
+    left: 0;
+
+}
+
+.video-list {
+    display: flex; /* Используем flexbox для горизонтального расположения */
+    list-style-type: none; /* Убираем маркеры списка */
+    padding: 30px; /* Убираем отступы */
+    margin: 10px; /* Убираем отступы */
+    justify-content: center; /* Распределяем пространство между элементами */
+}
+
+.video-item {
+    margin-right: 100px; /* Отступ между видео */
+}
+
+.video-item:last-child {
+    margin-right: 0; /* Убираем отступ у последнего элемента */
+}
+
+.video-item iframe {
+    border-radius: 10px; /* Установите желаемое значение радиуса */
+    overflow: hidden; /* Это поможет скрыть любые выступающие части */
+}
+
+.video-preview {
+    border-radius: 10px; /* Скругление углов */
+    transform: translateY(100px); /* Начальная позиция (внизу) */
+    opacity: 0; /* Начальная прозрачность */
+    transition: transform 0.5s ease, opacity 0.5s ease; /* Плавный переход */
+}
+
+.video-item.visible .video-preview {
+    transform: translateY(0); /* Конечная позиция (по умолчанию) */
+    opacity: 1; /* Полная видимость */
+}
+
+.footer {
+    background-color: #000;
+    padding: 50px 0px;
+    color: #fff;
+    text-align: center;
+}
+.footer a {
+    color:#7000BE ; /* Цвет по умолчанию */
+    text-decoration: none; /* Убираем подчеркивание */
+}
+
+.footer a:hover {
+    color: #44224b; /* Цвет при наведении */
+}
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+@media (max-width:2500px){ /*разрешение до телевизоров*/
+.body-img {
+    position: relative ;
+    width: 600px; /* Гибкость – наше всё */
+    height: auto%;
+    object-fit: contain; /* Исключаем искажения пропорций */
+    top: -310px;
+    left: 500px;
+}
+
+.tg-holder {
+    position: absolute;
+    left: 1100px;
+    top: 40px;
+
+}
+.tg-img { /*лого тг*/
+    position: relative ;
+    width: 75px; /* Гибкость – наше всё */
+    object-fit: unset
+    height: auto%;
+    /*object-fit: contain; /* Исключаем искажения пропорций */
+    top: 75px;
+    left: -90px;
+}
+
+.history-title {
+    position: relative;
+    top: 65px;
+}
+
+.statistics {
+    position:relative;
+    bottom: 150px;
+}
+
+.history-desc {
+    position:relative;
+    bottom: 110px;
+}
+
+.social-medias {
+   position: relative;
+   width: 60%;
+   top: 30px;
+   left: 300px
+}
+
+
+.images-1 {
+    position: relative ;
+    border-radius: 10px;
+    width: 400px; /* Гибкость – наше всё */
+    height: auto;
+    object-fit: contain; /* Исключаем искажения пропорций */
+    z-index: 1;
+    top: 300px;
+    left: 150px;
+}
+
+.video-item iframe {
+    border-radius: 10px; /* Установите желаемое значение радиуса */
+    overflow: hidden; /* Это поможет скрыть любые выступающие части */
+    width: 250px;
+    height: 500px;
+    object-fit: contain; /* Исключаем искажения пропорций */
+}
+
+.video-item {
+    margin-right: 30px; /* Отступ между видео */
+}
+
+.video-list {
+    position: relative ;
+    list-style-type: none; /* Убираем маркеры списка */
+    padding: 30px; /* Убираем отступы */
+    margin: 10px; /* Убираем отступы */
+    left: 10px;
+}
+}
+
+
+
+
+@media (max-width:1250px){ /*разрешение до маленькего ноутбука*/
+.body-img {
+    position: relative ;
+    width: 420px; /* Гибкость – наше всё */
+    height: auto%;
+    object-fit: contain; /* Исключаем искажения пропорций */
+    top: -70px;
+    left: 400px;
+}
+
+.tg-holder {
+    position: absolute;
+    left: 750px;
+    top: 40px;
+}
+
+.tg-img { /*лого тг*/
+    position: relative ;
+    width: 90px; /* Гибкость – наше всё */
+    object-fit: unset
+    height: auto%;
+    top: 80px;
+    left: -110px;
+}
+
+.history-title {
+    position: relative;
+    top: -10px;
+}
+
+.social-medias {
+   position: relative;
+   width: 85%;
+   top: 30px;
+   left: 135px
+}
+
+.images-1 {
+    position: relative ;
+    border-radius: 10px;
+    width: 300px; /* Гибкость – наше всё */
+    height: auto;
+    object-fit: contain; /* Исключаем искажения пропорций */
+    z-index: 1;
+    top: 300px;
+    left: 60px;
+}
+
+.video-item iframe {
+    border-radius: 10px; /* Установите желаемое значение радиуса */
+    overflow: hidden; /* Это поможет скрыть любые выступающие части */
+    width: 250px;
+    height: 500px;
+    object-fit: contain; /* Исключаем искажения пропорций */
+}
+
+.video-item {
+    margin-right: 30px; /* Отступ между видео */
+}
+
+.video-list {
+    position: relative ;
+    list-style-type: none; /* Убираем маркеры списка */
+    padding: 30px; /* Убираем отступы */
+    margin: 10px; /* Убираем отступы */
+    left: 10px;
+}
+}
+
+
+@media (max-width:950px){ /*до телефонов*/
+
+.logo {
+    position: relative ;
+    min-width: 80px; /* Гибкость – наше всё */
+    max-width: 10%;
+    object-fit: contain; /* Исключаем искажения пропорций */
+    z-index: 1;
+    top: 50px;
+    left: -100px;
+}
+
+.tg-holder {
+    position: absolute;
+    left: 220px;
+    top: 40px;
+}
+.tg-img { /*лого тг*/
+    position: relative ;
+    width: 40px; /* Гибкость – наше всё */
+    object-fit: unset
+    height: auto%;
+    top: 60px;
+    left: -50px;
+}
+
+.header-down {
+    position: relative;
+    right: 70px;
+    top:100px;
+}
+
+.header-btn2{
+    width: 150%;
+    position: relative;
+    right: 70px;
+}
+
+.body-img {
+    display: none;
+}
+
+
+.history-title {
+    display: none;
+    position: relative;
+    right: 400px;
+}
+
+.history-desc {
+    position: relative;
+    right: 100px;
+    top: 60px;
+    color: #979797;
+    font-size: 25px;
+    width: 300px;
+    text-align: center;
+}
+.statistics{
+    position: relative;
+    width: 80px;
+    right: 80px;
+    top: -200px;
+    display: flex; /* Используем flexbox для расположения элементов в ряд */
+    flex-direction: column; /* Указываем направление по горизонтали */
+    justify-content: space-between; /* Распределяем пространство между элементами */
+}
+
+.number-item {
+    margin: 10px; /* Добавляем отступы между элементами */
+}
+
+.images-1{
+    position: relative ;
+    border-radius: 10px;
+    width: 230px; /* Гибкость – наше всё */
+    height: auto;
+    object-fit: contain; /* Исключаем искажения пропорций */
+    z-index: 1;
+    top: 300px;
+    left: -60px;
+}
+.social-medias {
+   position:relative;
+   width: 80%;
+   top: 30px;
+   left: 35px;
+}
+
+.videos-header {
+   position: relative;
+   left: -35px;
+}
+
+.video-item iframe {
+    border-radius: 10px; /* Установите желаемое значение радиуса */
+    overflow: hidden; /* Это поможет скрыть любые выступающие части */
+    width: 250px;
+    height: 200px;
+    object-fit: contain; /* Исключаем искажения пропорций */
+}
+
+.video-item {
+    margin-right: 0px; /* Отступ между видео */
+}
+
+.video-list {
+    display: flex; /* Используем flexbox для расположения элементов в ряд */
+    flex-direction: column; /* Указываем направление по горизонтали */
+    justify-content: space-between; /* Распределяем пространство между элементами */
+    list-style-type: none; /* Убираем маркеры списка */
+    padding: 30px; /* Убираем отступы */
+    margin: 10px; /* Убираем отступы */
+    left: -100px;
+}
+}
+
